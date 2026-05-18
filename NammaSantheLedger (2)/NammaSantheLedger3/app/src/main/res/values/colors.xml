@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Theme Colors -->
+    <color name="primary">#2E7D32</color>
+    <color name="primary_dark">#1B5E20</color>
+    <color name="primary_light">#A5D6A7</color>
+
+    <!-- Accent Colors -->
+    <color name="secondary">#FF9800</color>
+    <color name="secondary_dark">#EF6C00</color>
+    <color name="secondary_light">#FFE0B2</color>
+
+    <!-- Finance / Market Theme -->
+    <color name="money_green">#43A047</color>
+    <color name="market_yellow">#FDD835</color>
+    <color name="village_orange">#FB8C00</color>
+
+    <!-- Background Colors -->
+    <color name="background_start">#E8F5E9</color>
+    <color name="background_middle">#FFF8E1</color>
+    <color name="background_end">#E1F5FE</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#616161</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Old Compatibility Colors -->
+    <color name="purple_200">#A5D6A7</color>
+    <color name="purple_500">#2E7D32</color>
+    <color name="purple_700">#1B5E20</color>
+
+    <color name="teal_200">#FFB74D</color>
+    <color name="teal_700">#F57C00</color>
+
+</resources>

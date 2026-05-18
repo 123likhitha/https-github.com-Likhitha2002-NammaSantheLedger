@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style
+        name="Theme.NammaSantheLedger"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary Colors -->
+        <item name="colorPrimary">#2E7D32</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">#FF9800</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@drawable/app_background</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">#1B5E20</item>
+
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor">#1B5E20</item>
+
+        <!-- Text Color -->
+        <item name="android:textColorPrimary">#212121</item>
+
+    </style>
+
+</resources>

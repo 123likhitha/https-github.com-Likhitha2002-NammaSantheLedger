@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<data-extraction-rules>
+
+    <!-- Cloud Backup -->
+    <cloud-backup>
+
+        <!-- Backup SharedPreferences -->
+        <include
+            domain="sharedpref"
+            path="LoginPrefs.xml" />
+
+        <include
+            domain="sharedpref"
+            path="ProfilePrefs.xml" />
+
+        <!-- Backup Room Database -->
+        <include
+            domain="database"
+            path="app_database" />
+
+        <include
+            domain="database"
+            path="app_database-wal" />
+
+        <include
+            domain="database"
+            path="app_database-shm" />
+
+    </cloud-backup>
+
+    <!-- Device Transfer -->
+    <device-transfer>
+
+        <!-- Transfer SharedPreferences -->
+        <include
+            domain="sharedpref"
+            path="LoginPrefs.xml" />
+
+        <include
+            domain="sharedpref"
+            path="ProfilePrefs.xml" />
+
+        <!-- Transfer Database -->
+        <include
+            domain="database"
+            path="app_database" />
+
+    </device-transfer>
+
+</data-extraction-rules>
