@@ -42,7 +42,7 @@ utils/ → Helper classes
 
 ### Clone the Repository
 
-git clone 
+git clone https://github.com/123likhitha/https-github.com-Likhitha2002-NammaSantheLedger.git
 
 ---
 
