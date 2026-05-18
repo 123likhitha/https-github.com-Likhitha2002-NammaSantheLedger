@@ -1,59 +1,133 @@
-# Namma Santhe Ledger 📒
+# 🧾 Namma Santhe Ledger – Android App
 
-Namma Santhe Ledger is an Android-based ledger management application developed for small shops, vendors, and local market businesses to maintain customer transaction records digitally.
-
-The application helps users manage daily credit/debit entries, customer details, reminders, and transaction history in a simple and efficient way.
+A simple and efficient Android application built for small vendors and shop owners to manage daily transactions digitally. The app focuses on clean design, fast performance, and easy record keeping.
 
 ---
 
 ## 🚀 Features
 
-- Add and manage customer transactions
-- Store customer details securely
-- Track pending and completed payments
-- Automatic date and time records
-- Reminder notifications for dues
-- Simple and user-friendly interface
-- Offline data storage using Room Database
-- Transaction history management
+• 📱 Clean and simple UI
+• 🔐 User login system
+• ➕ Add customer transactions
+• 📊 Transaction history tracking
+• ⏰ Weekly reminder notifications
+• 👤 Profile management
+• ⚙️ Settings management
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Tech Stack
 
-- Kotlin
-- Android Studio
-- Jetpack Components
-- Room Database
-- XML
-- RecyclerView
-- Notifications
-- Alarm Manager
+• Language: Kotlin
+• Architecture: MVVM
+• UI: XML Layouts
+• Background Tasks: WorkManager
+• Notifications: Broadcast Receiver
+• Storage: Shared Preferences and Local Storage
 
 ---
 
-## 📱 Modules
+## 📂 Project Structure
 
-### Login Module
-Allows users to securely log in to the application.
+com.example.nammasantheledger
 
-### Transaction Module
-Used to add, update, and manage customer ledger entries.
-
-### Reminder Module
-Provides notifications for pending payments.
-
-### Profile Module
-Helps users customize business/shop details.
-
-### Database Module
-Stores all transaction records locally using Room Database.
+ui/ → Activities and UI logic
+data/ → Models and storage handling
+adapter/ → List adapters
+utils/ → Helper classes
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Setup Instructions
 
-1. Clone the repository
+### Clone the Repository
 
-```bash
-https://github.com/123likhitha/https-github.com-Likhitha2002-NammaSantheLedger.git
+git clone [https://github.com/malikarshid01430-byte/NammaSantheLedger.git](https://github.com/malikarshid01430-byte/NammaSantheLedger.git)
+
+---
+
+### Or Download ZIP
+
+1. Go to the repository on GitHub
+2. Click Code
+3. Click Download ZIP
+4. Locate the downloaded ZIP file
+5. Right click the file
+6. Select Extract Here or Extract to folder
+7. Open the extracted folder
+
+---
+
+### Import into Android Studio
+
+1. Open Android Studio
+2. Click Open
+3. Select the extracted project folder
+4. Wait for Gradle sync to complete
+5. Click Run to launch the app
+
+---
+
+## 📦 Modules
+
+LoginActivity
+Handles user login
+
+MainActivity
+Main dashboard for managing transactions
+
+ProfileActivity
+Manages user profile details
+
+SettingsActivity
+Handles app settings
+
+ReminderReceiver
+Triggers reminder notifications
+
+WeeklyReminderWorker
+Schedules weekly reminders
+
+---
+
+## 🎯 Purpose
+
+This app helps small businesses replace manual notebooks with digital records. You can manage transactions faster and keep data organized.
+
+---
+
+## 🔮 Future Improvements
+
+• Firebase integration
+• Cloud backup
+• PDF report export
+• Search and filter options
+• Dark mode
+• Multi language support
+
+---
+
+## 🤝 Contributing
+
+Fork the repository
+Create a new branch
+Make changes and commit
+Push and create a pull request
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 👨‍💻 Author
+
+Developed by Arshid Ahmad Malik
+
+---
+
+## ⭐ Support
+
+If you find this project useful, give it a star
